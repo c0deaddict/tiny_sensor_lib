@@ -1,5 +1,8 @@
 #include <stdint.h>
 
+/**
+ * source: https://chromium.googlesource.com/chromiumos/platform/vboot_reference/+/master/firmware/lib/crc8.c
+ */
 uint8_t crc8(const uint8_t *data, int len)
 {
   unsigned crc = 0;
